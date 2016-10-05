@@ -1,0 +1,5 @@
+---
+# handlers file for php
+
+- name: restart php5-fpm
+  shell: service php5-fpm restart
